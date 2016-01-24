@@ -22,6 +22,7 @@ import os.path
 
 def file_len(f):
     """Counts the number of lines in a file."""
+    f.seek(0,0)
     return sum(1 for line in f)
 
 class DocDescription(object):
