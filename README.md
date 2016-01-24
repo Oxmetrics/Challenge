@@ -5,8 +5,7 @@ model with a sentiment classification algorithm in Python class SentimentModel.
 
 ## Assumptions and Data
 It is assumed that all three documents (positive, negative and unsupervised reviews) consist of sentences separated by new lines.
-In our example, negative_reviews.txt, positive_reviews.txt and unsupervised_reviews.txt have 50000, 50000 and 100000 thus identified
-sentences.
+In our example, negative_reviews.txt, positive_reviews.txt and unsupervised_reviews.txt have 25000, 25000 and 50000 thus identified sentences.
 
 ## Code
 There are three classes in challenge.py. DocDescription is simply an auxiliary class that provides a description of the document 
